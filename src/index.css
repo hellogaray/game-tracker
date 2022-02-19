@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #000000;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* --------------------- Links --------------------- */
+
+a {
+  margin-right: 18px;
+  margin-left: 18px;
+  text-decoration: none;
 }
+
+a:link {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:active {
+  color: inherit;
+  text-decoration: none;
+  
+}
+
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* --------------------- Page Titles --------------------- */
+
+.center-title {
+  font-family: 'Abril Fatface', cursive;
+  text-align: center;
+  margin-bottom: .25em; 
+  letter-spacing: 0.1em;
+}
+
+/* --------------------- Navbar --------------------- */
+
+.navbar {
+  -webkit-box-shadow: 0 5px 2px -6px #fff;
+  -moz-box-shadow: 0 5px 2px -6px #fff;
+  box-shadow: 0 4px 2px -4px #999;
+  min-height: 80px;
+}
+
+.navbar-light .navbar-brand {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 25px;
+  letter-spacing: 0.2em;
+}
+
+.center-container {
+  margin: auto;
+  padding: 10px;
+}
+

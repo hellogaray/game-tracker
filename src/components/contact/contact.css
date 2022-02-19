@@ -1,0 +1,54 @@
+
+/* --------------------- Contact Form --------------------- */
+
+.btn-primary {
+  font-size: 19px;
+  background: none;
+  border: none;
+  padding-left: 10px;
+  color: #000;
+  cursor: pointer;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  height: 60px;
+  width: 120px;
+  text-align: center;
+}
+
+.btn {
+  margin: 10px;
+}
+
+.btn-primary:hover {
+  background-color: #fff;
+  color: #ccc
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px 0;
+  border: .2px dotted #c3c3c3;
+  color: #ddd;
+  font-size: 12px;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.form-control-plaintext {
+  padding-top: 2em;
+}
+
+input {
+  text-align: center;
+}
+
+.text-description input {
+  height: 150px;
+}
+
+label {
+display: none;}
+
+.submit-button-center {
+  text-align: center;
+}

@@ -1,0 +1,33 @@
+
+/* --------------------- Columns and Rows --------------------- */
+
+.toast {
+  border: none;
+  width: 100%;
+  border: .5px dashed #c3c3c3;
+  padding: 10px;
+}
+
+.btn-close {
+  display: none;
+}
+
+.toast-header strong{
+  font-size: 18px;
+  letter-spacing: .2px;
+}
+
+.description {
+  color: #1D2225;
+  font-size: 15px;
+}
+
+.toast-header {
+  border-bottom: .5px dashed #c3c3c3;
+}
+
+.toast-header small {
+  font-size: 12px;
+  color: #000;
+  text-align: center;
+}

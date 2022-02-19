@@ -1,6 +1,13 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Gracker: Game Tracker
+> Software Engineering I's Project: Oregon State University - CS 361<p>
+> A web application that scrapes information from Wikipedia to obtain the availability of a video game on current generation consoles (including the 4th generation).
+
+## 💻 Author
+######  Leonel Garay
+[![github](https://img.shields.io/badge/github-1d1d1d?style=for-the-badge&logo=github&logoColor=white)](https://www.github.com/HelloGaray)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hellogaray/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/hellogaray)
 
 ## Available Scripts
 
@@ -14,57 +21,32 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+## 📸 Screenshot
+<img src='https://raw.githubusercontent.com/hellogaray/cs340-project/main/Project/static/ssmain.png' width='700'>
+  
+## 🛠 Technology Stack
+| Front-End     | Back-End      |
+| ------------- | ------------- |
+| HTML          | Flask         |
+| CSS           | React         |
+| Bootstrap     | Python        |
+| React         | Javascript    |
+ 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ UML Sequence Diagramming
+<img src='https://raw.githubusercontent.com/hellogaray/microservices-project/main/src/images/UML%20Sequence%20Diagramming%20-%20End%20User%20to%20Image%20Service.png?token=GHSAT0AAAAAABQSUQC7GVCTRH3ZZOBEAQAOYQPJDBQ' width='700'>
 
-### `npm run build`
+## ⛓ User Stories
+### User Story - Mariela:
+As a casual player, I want to easily know if a game is available on my console so that I get quickly buy it without having to research too much.
+#### Definition of Done
+- **Given** the user sees the user interface welcoming them to the page, **when** they first load  it, **then** they will be greeted by the search engine that will allow them to quickly search.
+- **Given** the user has familiarity with search engines, **when** they first interact with our search engine, **then**  they will immediately have a basic idea on how to use it.
+- **Given** the user’s attitude towards risk, **when** they interact with the search engine, **then** they will be able to correct any mistakes and easily understand how to use it again.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### User Story - Keiko:
+As a first-time user I want to quickly see what I can do with the website so that I can decide if it is what I need or I need a different tool.
+#### Definition of Done
+- **Given** the user loads the main page, **when** they first interact with the website, **then** they will immediately recognize the tools presented to them and how to use them.
+- **Given** the user has never interacted with our app, **when** they research our features, **then**  they will immediately have a basic understanding of what tools are available to them.
+- **Given** the user’s information processing style, **when** start interacting with the app, **then** they will be able comprehensively understand the inner-workings of the app or detect the immediate path to obtain results.
