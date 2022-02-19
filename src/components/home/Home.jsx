@@ -39,7 +39,7 @@ function Home() {
                     ) : (
                     data.wikiImages.map((image, i) => (
                     <div className='image-div'>
-                      <img src={image}/>
+                      <img src={image} alt="cover"/>
                     </div>
                     ))
                   )}
