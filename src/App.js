@@ -26,7 +26,7 @@ import Contact from './components/contact/Contact.jsx';
 function App() {
   return (
     <Router>
-      <Navbar bg="light" expand="lg">
+      <Navbar className='main-div' expand="lg">
         <Container fluid>
           <Navbar.Brand href="/">gracker </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -49,7 +49,6 @@ function App() {
       </Navbar>
 
       <br /> <br /> <br />
-
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/home' element={<Home/>} />
@@ -57,7 +56,7 @@ function App() {
         <Route path='/faqs' element={<Faqs/>} />
         <Route path='/contact' element={<Contact/>} />
       </Routes>
-    </Router>
+    </Router> 
   );
 }
 
