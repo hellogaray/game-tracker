@@ -1,5 +1,5 @@
 import { 
-	Container,
+	
 } from 'react-bootstrap';
 import React, {               // Importing React
   useEffect,
@@ -31,7 +31,7 @@ function Icon() {
   return (
     <div className="icon-div">
       {(
-        <img src={ imageData.resultsImage} className="icon-logo"/>
+        <img src={ imageData.resultsImage } className="icon-logo"/>
       )}
     </div>
   );
