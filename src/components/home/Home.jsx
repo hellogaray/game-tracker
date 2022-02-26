@@ -10,7 +10,6 @@ function Home() {
     return (
       <Container>
                   < SearchEngine />
-
       </Container>
     );
   }; 

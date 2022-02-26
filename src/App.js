@@ -20,6 +20,7 @@ import Features from './components/features/Features.jsx'
 import Faqs from './components/faqs/Faqs.jsx'
 import Home from './components/home/Home.jsx';
 import Contact from './components/contact/Contact.jsx';
+import Icon from './components/icon/Icon.jsx'
 
 
 // Main App, it will display the Navigation Bar at the top.
@@ -28,7 +29,7 @@ function App() {
     <Router>
       <Navbar className='main-div' expand="lg">
         <Container fluid>
-          <Navbar.Brand href="/">gracker </Navbar.Brand>
+          <Navbar.Brand href="/"><Icon /> { } gracker </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -49,6 +50,7 @@ function App() {
       </Navbar>
 
       <br /> <br /> <br />
+      
       <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/home' element={<Home/>} />

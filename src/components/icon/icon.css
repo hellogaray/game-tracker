@@ -1,0 +1,10 @@
+.icon-div {
+  margin: auto;
+  display: inline-block;
+}
+
+.icon-logo {
+  width: 40px;
+  opacity: 0.5;
+  background-color: white;
+}

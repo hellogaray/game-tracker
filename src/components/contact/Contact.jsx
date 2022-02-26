@@ -12,13 +12,13 @@ function Contact() {
             <Form>
                 <Row>
                     <Col>
-                    <Form.Group className="mb-3" class="form-control-plaintext">
+                    <Form.Group className="mb-3 form-control-plaintext">
                         <Form.Label>First Name</Form.Label>
                         <Form.Control type="text" placeholder="First Name" />
                     </Form.Group>
                     </Col>
                     <Col>
-                    <Form.Group className="mb-3" class="form-control-plaintext">
+                    <Form.Group className="mb-3 form-control-plaintext">
                         <Form.Label>Last Name</Form.Label>
                         <Form.Control type="text" placeholder="Last Name" />
                     </Form.Group>
@@ -26,13 +26,13 @@ function Contact() {
                 </Row>
                 <Row>
                     <Col>
-                        <Form.Group className="mb-3" class="form-control-plaintext" controlId="formBasicEmail">
+                        <Form.Group className="mb-3 form-control-plaintext" controlId="formBasicEmail">
                             <Form.Label>Phone Number</Form.Label>
-                            <Form.Control type="phone" placeholder="Enter phone number" />
+                            <Form.Control type="phone" placeholder="Phone number" />
                         </Form.Group>
                     </Col>
                     <Col>
-                        <Form.Group className="mb-3" class="form-control-plaintext" controlId="formBasicEmail">
+                        <Form.Group className="mb-3 form-control-plaintext" controlId="formBasicEmail">
                             <Form.Label>Email address</Form.Label>
                             <Form.Control type="email" placeholder="Enter email" />
                         </Form.Group>
