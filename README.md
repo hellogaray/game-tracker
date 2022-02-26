@@ -1,7 +1,7 @@
 
 # Gracker: Game Tracker
 > Software Engineering I's Project: Oregon State University - CS 361<p>
-> A web application that scrapes information from Wikipedia to obtain the availability of a video game on current generation consoles (including the 4th generation).
+> A web application that scrapes information from Wikipedia to obtain the availability of a video game on current generation consoles (including the 4th generation). Application works in conjuction with a wikipedia scraper microservice ([wikiGameScraper](https://github.com/hellogaray/wikiGameScraper)). The server needs to be running in order for the search engine to work.
 
 ## 💻 Author
 ######  Leonel Garay
