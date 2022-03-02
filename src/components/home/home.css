@@ -1,3 +1,13 @@
+body {
+    background:
+        url("background.jpg")
+        top center /* position / size */
+        no-repeat                /* repeat */
+        fixed                    /* attachment */
+        padding-box              /* origin */
+        content-box              /* clip */
+  }
+  
 .console-button {
   border-radius: 2px;
   padding: 6px 12px 5px;

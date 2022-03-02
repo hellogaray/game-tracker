@@ -1,16 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Koulen&family=Poppins:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
+:root {
+  --font-family: 'Poppins', sans-serif;
+
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  
+  --color-bg: #040C18;
+  --color-footer : #031B34;
+  --color-blog: #042c54;
+  --color-text: #81AFDD;
+  --color-subtext: #FF8A71;
+}
+
 * {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
-    color: #000000;
+    color: var(--color-text);
 }
 
 
 /* --------------------- Links --------------------- */
 
 a {
+  color: var(--color-text);
   margin-right: 18px;
   margin-left: 18px;
   text-decoration: none;
@@ -48,14 +62,7 @@ a:visited {
 
 /* --------------------- Navbar --------------------- */
 
-.navbar {
-  -webkit-box-shadow: 0 5px 2px -6px #fff;
-  -moz-box-shadow: 0 5px 2px -6px #fff;
-  box-shadow: 0 4px 2px -4px #999;
-  min-height: 80px;
-}
-
-.navbar-light .navbar-brand {
+ .navbar-dark .navbar-brand {
   font-family: 'Abril Fatface', cursive;
   font-size: 25px;
   letter-spacing: 0.2em;
@@ -64,4 +71,42 @@ a:visited {
 .center-container {
   margin: auto;
   padding: 10px;
+}
+
+
+.navbar {
+  
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+}
+
+.main-div {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar {
+  background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
+}
+
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

@@ -37,12 +37,11 @@ export default class SearchEngine extends Component {
             // Container for the search bar and button.
             <Container>
                 <div>
-                    <Form className="d-flex">
-
+                    <Form className="d-flex SearchEngine-Form">
                         <Form.Control rows="3" placeholder="Find Your Game" value={this.state.gameRequested} onChange={e=> this.setState({ gameRequested: e.target.value })}
-                            type="text"
+                            type="text" className='content_input'
                             />
-                            <Button variant="secondary" className="btnFormSend" onClick={this.changeState}>
+                            <Button  className='button-engine' onClick={this.changeState}>
                                 Search
                             </Button>
                     </Form>

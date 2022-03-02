@@ -27,7 +27,7 @@ import Icon from './components/icon/Icon.jsx'
 function App() {
   return (
     <Router>
-      <Navbar className='main-div' expand="lg">
+      <Navbar className='navbar gradient__bg' variant="dark" expand="lg">
         <Container fluid>
           <Navbar.Brand href="/"><Icon /> { } gracker </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />

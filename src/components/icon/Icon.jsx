@@ -12,7 +12,6 @@ function Icon() {
   const [imageData, setImageData] = useState([{}])
   const [isLoading, setIsLoading] = useState(true); // <-- loading state
 
-  
 
   useEffect (() => {
     setIsLoading(true); // <-- ensure loading true

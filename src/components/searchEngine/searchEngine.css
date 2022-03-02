@@ -1,13 +1,50 @@
-.console-button {
-  border-radius: 2px;
-  padding: 6px 12px 5px;
-  margin: 4px;
-  font-size: 13px;
-  background: #000;
-  color: #fff;
-  display: inline-block;
+/* --------------------- Search Engine Button and Input --------------------- */
+.SearchEngine-Form {
+  width: 50%;
+  margin: 2rem auto 1rem;
+  display: flex;
+  flex-direction: row;
 }
 
+.btn, .btn:hover, .btn:active, .btn:focus, .btn:visited {
+  flex: 0.2;
+  width: 100%;
+  background: #FF4820;
+  border: 2px solid #FF4820;
+  padding: 0 1rem;
+  color: var(--color-footer);
+  cursor: pointer;
+  outline: none;
+  border-top-left-radius: 1px;
+  border-bottom-left-radius: 1px;
+
+/* Remove blue outline from input */
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.content_input:valid {
+  flex: 2;
+  width: 100%;
+  min-height: 55px;
+  background: var(--color-footer);
+  border: 2px solid  var(--color-footer);
+  padding: 0 1rem;
+  outline: none;
+  color: #fff;
+  border-top-right-radius: 1px;
+  border-bottom-right-radius: 1px;
+}
+
+/* Remove blue outline from input */
+.form-control:focus {
+  border-color: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+
+/* --------------------- Game Results --------------------- */
 .game-div {
   margin: auto;
   display: inline-block;
@@ -18,19 +55,12 @@
   height: 50px;
 }
 
-.btn-secondary {
-  color: #000;
-  background: none;
-  border: none;
-  cursor: pointer;
-  margin: auto;
-}
-
 .card {
   border: none;
 }
 
 .image-div {
+  background: none;
   margin: auto;
   display: inline-block;
   padding: 10px;
@@ -42,3 +72,4 @@
   padding: 10px;
   display: inline-block;
 }
+
