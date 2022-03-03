@@ -13,6 +13,12 @@ import {                       // Importing React-Bootstrap
 
 // Importing all CSS Stylesheets.
 import './searchEngine.css';  
+import ai from '../assets/ai.png';
+import google from '../assets/google.png';
+import slack from '../assets/slack.png';
+import atlassian from '../assets/atlassian.png';
+import dropbox from '../assets/dropbox.png';
+import shopify from '../assets/shopify.png';
 
 // Function that creates the Search Bar and Button, it also calls the WikiCategories scraper.
 export default class SearchEngine extends Component {
@@ -36,19 +42,27 @@ export default class SearchEngine extends Component {
           return (
             // Container for the search bar and button.
             <Container>
-                <div>
-                    <Form className="d-flex SearchEngine-Form">
-                        <Form.Control rows="3" placeholder="Find Your Game" value={this.state.gameRequested} onChange={e=> this.setState({ gameRequested: e.target.value })}
+                <div className="engine-main section__padding" id="home">
+                <div className="engine-content">
+                    <h1 className="gradient__text">CONSOLE GAME TRACKER ENGINE</h1>
+                    <p>Find if the game you want to play is available in the consoles you own. Simply type the name of the game and click search.</p>
+                    <div className="engine-content__input">
+                        <Form className="SearchEngine-Form">
+                            <Form.Control placeholder="Find Your Game" value={this.state.gameRequested} onChange={e=>
+                            this.setState({ gameRequested: e.target.value })}
                             type="text" className='content_input'
                             />
                             <Button  className='button-engine' onClick={this.changeState}>
-                                Search
+                            Search
                             </Button>
-                    </Form>
-
-                    <div className="main-cointainer">
+                        </Form>
+                    </div>
+                </div>
+                <div className="search-results">
+                    <div className="results-div">
                         <Results info={this.state.serverURL} />
                     </div>
+                </div>
                 </div>
             </Container>
           );
@@ -91,7 +105,7 @@ function Results(props) {
                         )}
                         <div className='consoles-div'>
                             {(typeof data.wikiCategories === 'undefined') ? (
-                            <p>Results will appear here.</p>
+                            <p><img src={ai} /></p>
                             ) : (
                             data.wikiTitles.map((title, i) => (
                             <Card.Title>{title}</Card.Title>

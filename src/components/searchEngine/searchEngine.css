@@ -1,13 +1,12 @@
 /* --------------------- Search Engine Button and Input --------------------- */
 .SearchEngine-Form {
-  width: 50%;
-  margin: 2rem auto 1rem;
+  margin: 2rem 0 1rem;
   display: flex;
   flex-direction: row;
 }
 
 .btn, .btn:hover, .btn:active, .btn:focus, .btn:visited {
-  flex: 0.2;
+  flex: .2;
   width: 100%;
   background: #FF4820;
   border: 2px solid #FF4820;
@@ -24,9 +23,9 @@
 }
 
 .content_input:valid {
-  flex: 2;
+  flex: 3;
   width: 100%;
-  min-height: 55px;
+  min-height: 50px;
   background: var(--color-footer);
   border: 2px solid  var(--color-footer);
   padding: 0 1rem;
@@ -51,10 +50,6 @@
   box-shadow: 0 0 8px 0 rgb(0 0 0 / 10%);
 }
 
-.form-control {
-  height: 50px;
-}
-
 .card {
   border: none;
 }
@@ -73,3 +68,119 @@
   display: inline-block;
 }
 
+.engine-main{
+  display: flex;
+  flex-direction: row;
+}
+
+.engine-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin-right: 5rem;
+}
+
+.engine-content h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+}
+
+.engine-content p {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: var(--color-text);
+
+  margin-top: 1.5rem;
+}
+
+.engine-content__input {
+  width: 100%;
+  margin: 2rem 0 1rem;
+  flex-direction: row;
+}
+
+.engine-content__people p {
+  margin: 0 0 0 1rem;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 38px;
+  color: #fff;
+  text-align: center;
+}
+
+.search-results {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-results img {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* --------------------- Flex --------------------- */
+@media screen and (max-width: 1050px) {
+  .engine-main{
+      flex-direction: column;
+  }
+
+  .engine-content {
+      margin: 0 0 3rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .engine-content h1 {
+      font-size: 48px;
+      line-height: 60px;
+  }
+
+  .engine-content p {
+      font-size: 16px;
+      line-height: 24px;
+  }
+  
+  .engine-content__people {
+      flex-direction: column;
+  }
+
+  .engine-content__people p {
+      margin: 0;
+  }
+
+  .engine-content__input input,
+  .engine-content__input button {
+      font-size: 16px;
+      line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .engine-content h1 {
+      font-size: 36px;
+      line-height: 48px;
+  }
+
+  .engine-content p {
+      font-size: 14px;
+      line-height: 24px;
+  }
+
+  .engine-content__input input,
+  .engine-content__input button {
+      font-size: 12px;
+      line-height: 16px;
+  }
+}

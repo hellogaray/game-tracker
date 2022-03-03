@@ -40,10 +40,10 @@ function App() {
             <Nav className="me-auto"></Nav>  
             </Nav>
             <Nav>
-              <Link to="/home">Home</Link>
-              <Link to="/features">Features</Link>
-              <Link to="/faqs">FAQs</Link>
-              <Link to="/contact">Contact</Link>
+              <Link to="/home">HOME</Link>
+              <Link to="/features">FEATURES</Link>
+              <Link to="/faqs">FAQS</Link>
+              <Link to="/contact">CONTACT</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
