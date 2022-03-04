@@ -41,3 +41,8 @@ body {
   display: inline-block;
 }
 
+.search-engine-main-div {
+  margin: auto;
+  width: 90%;
+  padding: 20px;
+}

@@ -9,7 +9,9 @@ function Home() {
 
     return (
       <Container>
-                  < SearchEngine />
+                 <div className='search-engine-main-div'> 
+                   < SearchEngine />
+                  </div>
       </Container>
     );
   }; 

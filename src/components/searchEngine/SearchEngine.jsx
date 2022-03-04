@@ -88,26 +88,32 @@ function Results(props) {
   }, [props.info])
   return (
     // Container with the results of the serach. When no search has been requested it shows a message that says "Results will appear here."
-    <Container>
+    <Container className='results-container'>
         < br />
         <Card className='card-results'>
             <Card.Body>
                 <Card.Text>
                         {(typeof data.wikiCategories === 'undefined') ? (
-                        <p><img src={ai} /></p>
+                             <div className='image-div'>
+                                <img src={ai} />
+                            </div>
                         ) : (
                         data.wikiImages.map((image, i) => (
-                        <div className='image-div'>
-                            <img src={image} alt="cover" />
-                        </div>
+                            <div className='image-div'>
+                                <img src={image} alt="cover" />
+                            </div>
                         ))
                         )}
                         <br /><br />
                             {(typeof data.wikiCategories === 'undefined') ? (
-                            <div className='results-title-div'>Title</div>
+                                <div className='results-title-div'>
+                                    Title
+                                </div>
                             ) : (
                             data.wikiTitles.map((title, i) => (
-                            <div className='results-title-div'>{title}</div>
+                                <div className='results-title-div'>
+                                    {title}
+                                </div>
                             ))
                             )}
                             <br />
@@ -124,7 +130,6 @@ function Results(props) {
                                     ))
                                 )}
                             </div>
-                            <br />
                 </Card.Text>
             </Card.Body>
         </Card>

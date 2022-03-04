@@ -122,10 +122,13 @@
 }
 
 /* --------------------- Results Card --------------------- */
+.results-container {
+  margin-bottom: 20px;
+}
+
 .card-results {
   position: relative;
-  max-width: 380px;
-  min-width: 380px;
+  min-width: 100%;
   width: 100%;
   padding: 20px;
   backdrop-filter: blur(40px) saturate(120%) brightness(120%);
