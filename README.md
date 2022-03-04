@@ -22,7 +22,8 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ## 📸 Screenshot
-<img src='https://raw.githubusercontent.com/hellogaray/cs340-project/main/Project/static/ssmain.png' width='700'>
+![Youtube Video](https://i.giphy.com/media/nGSJWWchYoTBEolq0o/giphy.webp)\
+Link: [Youtube](https://www.youtube.com/watch?v=GvbbOZApiWY)
   
 ## 🛠 Technology Stack
 | Front-End     | Back-End      |
@@ -34,7 +35,7 @@ You may also see any lint errors in the console.
  
 
 ## ⚙️ UML Sequence Diagramming
-<img src='https://raw.githubusercontent.com/hellogaray/microservices-project/main/src/images/UML%20Sequence%20Diagramming%20-%20End%20User%20to%20Image%20Service.png?token=GHSAT0AAAAAABQSUQC7GVCTRH3ZZOBEAQAOYQPJDBQ' width='700'>
+<img src='https://raw.githubusercontent.com/hellogaray/game-tracker/master/src/images/UML%20Sequence%20Diagramming%20-%20End%20User%20to%20Image%20Service.png?token=GHSAT0AAAAAABRXYXQ5IHTX57SR3TB6IUPSYRLLDAQ' width='700'>
 
 ## ⛓ User Stories
 ### User Story - Mariela:
