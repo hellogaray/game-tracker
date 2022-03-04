@@ -46,7 +46,7 @@ function Features() {
               video=<iframe width="560" height="315" src="https://www.youtube.com/embed/GvbbOZApiWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
           />
           < br />
-          <FeaturesAccordion 
+          <FeaturesAccordion
               title="CONTACT US"
               date="22-01-10"
               description="If you are having an issue with either the search engine or any other page on our website you can contact us by using the Contact form on the Contact page or you can send us an email to admin@localhost:300. We will either never answer because this whole page does not work and it is only a small project, or we will and that will be something, right? How did we even do that?! Do not ask me because I also do not know, you should probably change your passwords if that happens, because it is obviously not us."
