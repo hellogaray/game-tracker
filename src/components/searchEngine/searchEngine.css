@@ -55,10 +55,14 @@
 }
 
 .image-div {
-  background: none;
-  margin: auto;
-  display: inline-block;
-  padding: 10px;
+    max-width: 600px;
+    min-height: 190px;
+    border-radius: 20px;
+    background: var(--gradient-results);
+    box-shadow: rgb(73 39 171 / 30%) 0px 20px 40px;
+    display: grid;
+    -webkit-box-pack: center;
+    place-content: center;
 }
 
 .consoles-div {
@@ -117,6 +121,22 @@
   text-align: center;
 }
 
+/* --------------------- Results Card --------------------- */
+.card-results {
+  position: relative;
+  max-width: 380px;
+  min-width: 380px;
+  width: 100%;
+  padding: 20px;
+  backdrop-filter: blur(40px) saturate(120%) brightness(120%);
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: rgb(0 0 0 / 10%) 0px 0;
+}
+
 .search-results {
   flex: 1;
   display: flex;
@@ -125,11 +145,36 @@
 }
 
 .search-results img {
-  width: 100%;
   height: 100%;
+  width: 100%;
+  border-radius: 10px;
 }
 
+.all-consoles-div {
+  text-align: center;
+}
 
+.console-button {
+  text-align: center;
+  border-radius: 20px;
+  padding: 6px 12px 5px;
+  margin: 4px;
+  font-size: 13px;
+  background: var(--gradient-console-results);
+  color: #fff;
+  display: inline-block;
+}
+
+.results-title-div {
+  text-align: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0px 0px 10px;
+}
 /* --------------------- Flex --------------------- */
 @media screen and (max-width: 1050px) {
   .engine-main{
@@ -166,6 +211,8 @@
       line-height: 24px;
   }
 }
+
+
 
 @media screen and (max-width: 490px) {
   .engine-content h1 {

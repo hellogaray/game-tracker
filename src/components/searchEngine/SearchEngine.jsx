@@ -90,12 +90,11 @@ function Results(props) {
     // Container with the results of the serach. When no search has been requested it shows a message that says "Results will appear here."
     <Container>
         < br />
-        <Card className="text-center">
+        <Card className='card-results'>
             <Card.Body>
                 <Card.Text>
-                    <div className='game-div'>
                         {(typeof data.wikiCategories === 'undefined') ? (
-                        <p></p>
+                        <p><img src={ai} /></p>
                         ) : (
                         data.wikiImages.map((image, i) => (
                         <div className='image-div'>
@@ -103,26 +102,29 @@ function Results(props) {
                         </div>
                         ))
                         )}
-                        <div className='consoles-div'>
+                        <br /><br />
                             {(typeof data.wikiCategories === 'undefined') ? (
-                            <p><img src={ai} /></p>
+                            <div className='results-title-div'>Title</div>
                             ) : (
                             data.wikiTitles.map((title, i) => (
-                            <Card.Title>{title}</Card.Title>
-                            ))
-                            )}
-                            {(typeof data.wikiCategories === 'undefined') ? (
-                            <p></p>
-                            ) : (
-                            data.wikiCategories.map((member, i) => (
-                            <div className='console-button'>
-                                {member}
-                            </div>
+                            <div className='results-title-div'>{title}</div>
                             ))
                             )}
                             <br />
-                        </div>
-                    </div>
+                            <div className='all-consoles-div'>
+                                {(typeof data.wikiCategories === 'undefined') ? (
+                                    <div className='console-button'>
+                                        Here are the categories
+                                    </div>
+                                    ) : (
+                                    data.wikiCategories.map((categories, i) => (
+                                    <div className='console-button'>
+                                        {categories}
+                                    </div>
+                                    ))
+                                )}
+                            </div>
+                            <br />
                 </Card.Text>
             </Card.Body>
         </Card>
