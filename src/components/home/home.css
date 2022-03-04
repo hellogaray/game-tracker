@@ -7,8 +7,7 @@ body {
         fixed                    /* attachment */
         padding-box              /* origin */
         content-box              /* clip */
-        rgb(0 0 0 / 100%)
-  }
+}
 
 .game-div {
   margin: auto;

@@ -5,13 +5,15 @@
   flex-direction: row;
 }
 
-.btn, .btn:hover, .btn:active, .btn:focus, .btn:visited {
+.button-engine, .button-engine:hover, 
+.button-engine:active, .button-engine:focus, 
+.button-engine:visited {
   flex: .2;
   width: 100%;
-  background: #FF4820;
-  border: 2px solid #FF4820;
+  background: #453275;
+  border: 2px solid #453275;
   padding: 0 1rem;
-  color: var(--color-footer);
+  color: #adc9d1;
   cursor: pointer;
   outline: none;
   border-top-left-radius: 1px;
@@ -26,11 +28,11 @@
   flex: 3;
   width: 100%;
   min-height: 50px;
-  background: var(--color-footer);
-  border: 2px solid  var(--color-footer);
+  background: var(--gradient-search-bar);
+  border: 2px solid  var(--gradient-search-bar);
   padding: 0 1rem;
   outline: none;
-  color: #fff;
+  color: #adc9d1;
   border-top-right-radius: 1px;
   border-bottom-right-radius: 1px;
 }
@@ -57,12 +59,9 @@
 .image-div {
     max-width: 600px;
     min-height: 190px;
-    border-radius: 20px;
-    background: var(--gradient-results);
-    box-shadow: rgb(73 39 171 / 30%) 0px 20px 40px;
-    display: grid;
-    -webkit-box-pack: center;
-    place-content: center;
+    border-radius: 10px;
+    box-shadow: rgb(73 39 171 / 50%) 0px 10px 10px;
+    backdrop-filter: blur(50px) saturate(100%) brightness(150%);
 }
 
 .consoles-div {
@@ -83,7 +82,6 @@
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-
   margin-right: 5rem;
 }
 
@@ -101,7 +99,6 @@
   font-size: 20px;
   line-height: 28px;
   color: var(--color-text);
-
   margin-top: 1.5rem;
 }
 
@@ -130,13 +127,13 @@
   position: relative;
   min-width: 100%;
   width: 100%;
-  padding: 20px;
-  backdrop-filter: blur(40px) saturate(120%) brightness(120%);
+  padding: 10px;
+  backdrop-filter: blur(20px) saturate(100%) brightness(110%);
   border-top-left-radius: 0px;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  background: rgba(255, 255, 255, 0.9);
+  background: transparent;
   box-shadow: rgb(0 0 0 / 10%) 0px 0;
 }
 
@@ -178,6 +175,7 @@
   color: rgba(0, 0, 0, 0.7);
   margin: 0px 0px 10px;
 }
+
 /* --------------------- Flex --------------------- */
 @media screen and (max-width: 1050px) {
   .engine-main{

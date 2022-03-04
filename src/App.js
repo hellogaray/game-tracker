@@ -21,7 +21,7 @@ import Faqs from './components/faqs/Faqs.jsx'
 import Home from './components/home/Home.jsx';
 import Contact from './components/contact/Contact.jsx';
 import Icon from './components/icon/Icon.jsx'
-
+import Message from './components/message/Message.jsx'
 
 // Main App, it will display the Navigation Bar at the top.
 function App() {
@@ -57,6 +57,7 @@ function App() {
         <Route path='/features' element={<Features/>} /> 
         <Route path='/faqs' element={<Faqs/>} />
         <Route path='/contact' element={<Contact/>} />
+        <Route path='/message' element={<Message/>} />
       </Routes>
     </Router> 
   );

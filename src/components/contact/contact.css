@@ -1,30 +1,24 @@
 
 /* --------------------- Contact Form --------------------- */
 
-.btn-primary {
-  font-size: 19px;
-  background: none;
-  border: none;
-  padding-left: 10px;
-  color: #000;
+.button-contact, .button-contact:hover, 
+.button-contact:active, .button-contact:focus, 
+.button-contact:visited {
+  flex: .2;
+  height: 70px;
+  background: #453275;
+  border: 2px solid #453275;
+  padding: 0 1rem;
+  color: #adc9d1;
   cursor: pointer;
-  font-weight: 700;
-  letter-spacing: 1.4px;
-  height: 60px;
+  outline: none;
+  padding: 20px;
+  margin: 20px;
   width: 120px;
-  text-align: center;
+  border-radius: 1px;
 }
 
-.btn {
-  margin: 10px;
-}
-
-.btn-primary:hover {
-  background-color: #fff;
-  color: #ccc
-}
-
-.form-control {
+.contact-form .form-control  {
   width: 100%;
   padding: 10px 0;
   border: .2px dotted #c3c3c3;
@@ -38,7 +32,7 @@
   padding-top: 2em;
 }
 
-input {
+.contact-form input {
   text-align: center;
 }
 
@@ -46,7 +40,7 @@ input {
   height: 150px;
 }
 
-label {
+.contact-form label {
 display: none;}
 
 .submit-button-center {

@@ -1,0 +1,16 @@
+.message-div {
+  padding: 50px;
+  text-align: center;
+  width: 100%;
+  backdrop-filter: blur(10px) saturate(100%) brightness(90%);
+  border-radius: 20px;
+  background: transparent;
+}
+
+.message-div h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+}

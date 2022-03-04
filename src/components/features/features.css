@@ -22,12 +22,35 @@
   font-size: 15px;
 }
 
-.toast-header {
-  border-bottom: .5px dashed #c3c3c3;
+.description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 2rem;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
-.toast-header small {
-  font-size: 12px;
-  color: #000;
-  text-align: center;
+.features-header {
+  position: relative;
+  min-width: 100%;
+  width: 100%;
+  padding: 10px;
+  backdrop-filter: blur(10px) saturate(190%) brightness(90%);
+  border-radius: 20px;
+  background: transparent;
+  box-shadow: rgb(0 0 0 / 10%) 0px 0;
+}
+
+.features-header h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+}
+
+.features-header h4 {
+  font-family: var(--font-family);
+  font-size: 20px;
 }
