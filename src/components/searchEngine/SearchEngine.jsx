@@ -88,7 +88,7 @@ function Results(props) {
                 <Card.Text>
                         {(typeof data.wikiCategories === 'undefined') ? (
                              <div className='image-div'>
-                                <img src={ai} />
+                                <img src={ai} alt="cover" />
                             </div>
                         ) : (
                         data.wikiImages.map((image, i) => (

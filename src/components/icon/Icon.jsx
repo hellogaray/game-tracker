@@ -26,7 +26,7 @@ function Icon() {
   return (
     <div className="icon-div">
       {(
-        <img src={ imageData.resultsImage } className="icon-logo"/>
+        <img src={ imageData.resultsImage } alt="results" className="icon-logo"/>
       )}
     </div>
   );
