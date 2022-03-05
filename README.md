@@ -27,7 +27,7 @@ In order to use the search engine you will need to download the [wikiGameScraper
 
 ## 📸 Screenshot
 ![Youtube Video](https://i.giphy.com/media/nGSJWWchYoTBEolq0o/giphy.webp)\
-Link: [Youtube](https://www.youtube.com/watch?v=GvbbOZApiWY)
+Video Demo: [Youtube](https://www.youtube.com/watch?v=GvbbOZApiWY)
   
 ## 🛠 Technology Stack
 | Front-End     | Back-End      |
