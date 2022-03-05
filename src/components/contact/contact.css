@@ -28,7 +28,7 @@
   outline: none;
 }
 
-.form-control-plaintext {
+.form-control__plaintext {
   padding-top: 2em;
 }
 
@@ -43,6 +43,6 @@
 .contact-form label {
 display: none;}
 
-.submit-button-center {
+.contact-form__submit-button {
   text-align: center;
 }
