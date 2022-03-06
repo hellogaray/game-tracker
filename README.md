@@ -24,6 +24,7 @@ The page will reload when you make changes. You may also see any lint errors in 
 In order to use the search engine you will need to download the [wikiGameScraper](https://github.com/hellogaray/wikiGameScraper)
 ### `./server.py`
 
+Other than the search engine everything else works without the need of the python server.
 
 ## 📸 Screenshot
 ![Youtube Video](https://i.giphy.com/media/nGSJWWchYoTBEolq0o/giphy.webp)\
