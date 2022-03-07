@@ -34,7 +34,7 @@ function Contact() {
                      </Form.Group>
                      </Col>
                      <Col>
-                     <Form.Group className="mb-3 form-control-plaintext">
+                     <Form.Group className="mb-3 form-control__plaintext">
                         <Form.Label>Last Name</Form.Label>
                         <Form.Control type="text" placeholder="Last Name" />
                      </Form.Group>
@@ -42,13 +42,13 @@ function Contact() {
                   </Row>
                   <Row>
                      <Col>
-                     <Form.Group className="mb-3 form-control-plaintext" controlId="formBasicEmail">
+                     <Form.Group className="mb-3 form-control__plaintext" controlId="formBasicEmail">
                         <Form.Label>Phone Number</Form.Label>
                         <Form.Control type="phone" placeholder="Phone number" />
                      </Form.Group>
                      </Col>
                      <Col>
-                     <Form.Group className="mb-3 form-control-plaintext" controlId="formBasicEmail">
+                     <Form.Group className="mb-3 form-control__plaintext" controlId="formBasicEmail">
                         <Form.Label>Email address</Form.Label>
                         <Form.Control type="email" placeholder="Enter email" />
                      </Form.Group>
@@ -56,7 +56,7 @@ function Contact() {
                   </Row>
                   <Row>
                      <Col>
-                     <Form.Group className="mb-3 text-description form-control-plaintext">
+                     <Form.Group className="mb-3 text-description form-control__plaintext">
                         <Form.Label>Description</Form.Label>
                         <Form.Control type="text" placeholder="Describe your Issue" />
                      </Form.Group>
@@ -71,9 +71,10 @@ function Contact() {
                      SUBMIT
                      </Button>
                      <Modal show={show} onHide={handleClose}>
-                        <Modal.Header closeButton>
-                        </Modal.Header>
-                        <Modal.Body>< Message /></Modal.Body>
+                        <Modal.Header closeButton></Modal.Header>
+                        <Modal.Body> 
+                           < Message />
+                        </Modal.Body>
                         <Modal.Footer>
                            <Button variant="secondary" onClick={handleClose}>
                            Close
@@ -87,4 +88,4 @@ function Contact() {
     );
   }; 
   
-  export default Contact;
+export default Contact;

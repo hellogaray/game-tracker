@@ -35,7 +35,7 @@ export default class SearchEngine extends Component {
         return (
         // Container for the search bar and button.
             <Container>
-                <div className="engine-main section__padding" id="home">
+                <div className="engine-main" id="home">
                     <div className="engine-content">
                         <h1 className="gradient__text">GAME CONSOLE TRACKING</h1>
                         <p>Find if the game you want to play is available in the consoles you own. Simply type the name of the game and click search.</p>
