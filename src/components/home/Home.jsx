@@ -5,7 +5,7 @@ import {
 import SearchEngine from '../searchEngine/SearchEngine.jsx';
 import Logos from '../logos/Logos.jsx';
 import './home.css';
-  
+
 function Home() {
     return (
       <Container>

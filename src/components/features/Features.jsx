@@ -37,7 +37,8 @@ function Features() {
         <h1 className="gradient__text center-title">FEATURES</h1>
         <h4 className='gradient__text center-title'>Latest and Current Features</h4>
       </div>
-      <div>
+      <br />
+      <div className=' card-results'>
           <br />
           <FeaturesAccordion 
               title="GAME SEARCH"

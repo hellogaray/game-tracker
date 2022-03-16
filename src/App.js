@@ -22,6 +22,9 @@ import Home from './components/home/Home.jsx';
 import Contact from './components/contact/Contact.jsx';
 import Icon from './components/icon/Icon.jsx'
 import Message from './components/message/Message.jsx'
+import SearchEngine from './components/searchEngine/SearchEngine.jsx'
+import Logos from './components/logos/Logos.jsx'
+
 
 // Main App, it will display the Navigation Bar at the top.
 function App() {
@@ -58,6 +61,9 @@ function App() {
         <Route path='/faqs' element={<Faqs/>} />
         <Route path='/contact' element={<Contact/>} />
         <Route path='/message' element={<Message/>} />
+        <Route path='/search' element={<SearchEngine/>} />
+        <Route path='/logos' element={<Logos/>} />
+
       </Routes>
     </Router> 
   );

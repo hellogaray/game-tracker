@@ -19,13 +19,13 @@ function Contact() {
 
     return (
         <Container>
-            <div>
+            <div >
                <div className='features-header'>
                   <h1 className="gradient__text center-title">Contact</h1>
                   <h4 className='gradient__text center-title'>Get the answers to life</h4>
                </div>
                < br/>
-               <Form className='contact-form'>
+               <Form className='contact-form card-results'>
                   <Row>
                      <Col>
                      <Form.Group className="mb-3 form-control__plaintext">
