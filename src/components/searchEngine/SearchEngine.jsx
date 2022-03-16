@@ -12,7 +12,7 @@ import {                       // Importing React-Bootstrap
 
 // Importing all CSS Stylesheets.
 import './searchEngine.css';  
-import temporary from '../assets/temp.png';
+import Cover from '../cover/Cover.jsx'
 
 // Function that creates the Search Bar and Button, it also calls the WikiCategories scraper.
 export default class SearchEngine extends Component {
@@ -88,7 +88,7 @@ function Results(props) {
                 <Card.Text>
                         {(typeof data.wikiCategories === 'undefined') ? (
                              <div className='image-div'>
-                                <img src={temporary} alt="cover" />
+                                <Cover />
                             </div>
                         ) : (
                         data.wikiImages.map((image, i) => (

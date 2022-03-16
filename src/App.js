@@ -20,7 +20,6 @@ import Features from './components/features/Features.jsx'
 import Faqs from './components/faqs/Faqs.jsx'
 import Home from './components/home/Home.jsx';
 import Contact from './components/contact/Contact.jsx';
-import Icon from './components/icon/Icon.jsx'
 import Message from './components/message/Message.jsx'
 import SearchEngine from './components/searchEngine/SearchEngine.jsx'
 import Logos from './components/logos/Logos.jsx'
@@ -32,7 +31,7 @@ function App() {
     <Router>
       <Navbar className='navbar gradient__bg' variant="dark" expand="lg">
         <Container fluid>
-          <Navbar.Brand href="/"><Icon /> { } gracker </Navbar.Brand>
+          <Navbar.Brand href="/"> gracker </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav

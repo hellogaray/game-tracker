@@ -5,9 +5,9 @@ import React, { // Importing React
     useEffect,
     useState
 } from 'react';
-import './icon.css';
+import './cover.css';
 
-function Icon() {
+function Cover() {
   const [imageData, setImageData] = useState([{}])
   const [isLoading, setIsLoading] = useState(true); // <-- loading states
 
@@ -24,13 +24,13 @@ function Icon() {
   }, [])
   if (isLoading) return <div>Loading Data</div>; // <-- render loading UI
   return (
-    <div className="icon-div">
+    <div className="cover-div">
       {(
-        <img src={ imageData.resultsImage } alt="results" className="icon-logo"/>
+        <img src={ imageData.resultsImage } alt="results" className="cover-logo"/>
       )}
     </div>
   );
 }
 
 
-export default Icon;
+export default Cover;

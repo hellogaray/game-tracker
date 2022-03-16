@@ -57,8 +57,7 @@
 }
 
 .image-div {
-    max-width: 600px;
-    min-height: 190px;
+    max-width: 300px;
     border-radius: 10px;
     box-shadow: rgb(73 39 171 / 50%) 0px 10px 10px;
     backdrop-filter: blur(50px) saturate(100%) brightness(150%);
@@ -124,6 +123,7 @@
 }
 
 .card-results {
+  text-align: center;
   position: relative;
   min-width: 100%;
   width: 100%;
